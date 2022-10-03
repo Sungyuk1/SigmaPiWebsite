@@ -1,0 +1,4 @@
+https://tailwindcss.com/docs/guides/create-react-app  - make sure to download tailwind for react not other frameworks
+
+https://github.com/tailwindlabs/tailwindcss/discussions/7621 - tailwind build error, content 
+needs to have path to all files with tailwind
