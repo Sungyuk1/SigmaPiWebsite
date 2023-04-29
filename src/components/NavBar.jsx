@@ -61,7 +61,7 @@ const NavBar = () => {
 
        {/*This means show only is nav is true*/}
         {nav && (
-             <ul className = "flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-black text-gray-500 border-b-4 border-gray-800  z-30">
+             <ul className = "flex flex-col justify-center items-center w-screen-50 absolute top-0 right-0 left-0 h-screen-50 bg-black text-gray-500 z-30 outline outline-4">
              {links.map(({id, link})=>(
                 <li key={id} className="px-4 cursor-pointer capitalize py-3 text-2xl z-11"><Link to={link} smooth duration ={500}>{link}</Link></li>
  
