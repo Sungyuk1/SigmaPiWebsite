@@ -33,6 +33,8 @@ const NavBar = () => {
                 link: 'Sweet Heart'},
         {id:8,
                     link: 'Rush'},
+        {id: 9,
+            link: 'Links'},
 
     ]
     
@@ -45,7 +47,7 @@ const NavBar = () => {
         {/*This iterates through our links array and creates elements for them*/ }
         <ul className ="hidden md:flex">
             {links.map(({id, link})=>(
-               <li key={id} className="px-4 cursor-pointer capitalize font-medium text-gray-500
+               <li key={id} className="px-3 cursor-pointer capitalize font-medium text-gray-500
                hover:scale-105 duration-200"><Link to={link} smooth duration ={500}>{link}</Link></li>
 
             ))}

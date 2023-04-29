@@ -23,7 +23,7 @@ function App() {
       <RightImage title={"Social"} text={"We party with women"} name={"Social"}/>
       <LeftImage title={"Sweet Heart"} text={"This is rachel. Ask arron if rachel want different picture on wbesite. This is randomw pictre off her instagram"} name={"Sweet Heart"} image={Rachel1}/>
       <RightImage title={"Rush"} text={"Rush the house"} name={"Rush"} image={rush}/>
-      
+      <SocialLinks name={"Links"}/>
     </div>
   );
 }
