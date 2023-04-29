@@ -7,7 +7,6 @@ const About = () => {
             <div className="pb-8">
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
             </div>
-            {/*mt means margin top*/}
             <p className='text-xl mt-20'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis explicabo quod blanditiis sed, ullam nihil 
                 cum dolore modi vel provident. Facilis veniam autem, consequuntur cum quisquam id voluptatum cupiditate soluta blanditiis
