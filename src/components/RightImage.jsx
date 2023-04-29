@@ -8,7 +8,7 @@ function RightImage({image, text, title, name}) {
             <div className="pb-8">
                 <p className='text-xs md:text-4xl font-bold inline border-b-4 border-gray-500'>{title}</p>
             </div>
-            <p>{text}</p>
+            <p className='text-xs md:text-base'>{text}</p>
         </div>
         <img src={image} alt="" className='ml-5 h-1/2 w-1/2 object-scale-down'/>
         </div>
