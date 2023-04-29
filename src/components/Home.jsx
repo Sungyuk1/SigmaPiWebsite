@@ -1,5 +1,5 @@
 import React from 'react'
-import comp from '../assets/composite photo cropped.png'
+import FGT from '../assets/FGT.jpg'
 import {MdOutlineKeyboardArrowRight} from "react-icons/md"
 
 //Via is the midpoint for the gradient
@@ -12,7 +12,7 @@ const Home = () => {
                     Sigma Pi at Michiagn State University
                 </h2>
              <div>
-                <img src={comp} alt="my profile" className="rounded-2xl mx-auto w-2/3 md:w-full"/>
+                <img src={FGT} alt="Freddie Grant Tommy" className="rounded-2xl mx-auto w-2/3 md:w-full object-scale-down"/>
              </div>
          </div>
     </div>

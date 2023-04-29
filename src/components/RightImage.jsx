@@ -2,15 +2,15 @@ import React from 'react'
 
 function RightImage({image, text, title, name}) {
   return (
-    <div className='flex flex-row w-full h-screen bg-gradient-to-b from-black to-gray-800 text-white' name={name}>
-        <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <img src={image} alt=""/>
-        <div className='flex flex-col'>
+    <div className='flex flex-row w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white' name={name}>
+        <div className="max-w-screen-lg p-4 mx-auto flex flex-row justify-center w-full h-full">
+        <div className='flex flex-col mr-5'>
             <div className="pb-8">
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>{title}</p>
             </div>
             <p>{text}</p>
         </div>
+        <img src={image} alt="" className='ml-5 h-1/2 w-1/2 object-scale-down'/>
         </div>
     </div>
   )

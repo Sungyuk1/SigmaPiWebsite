@@ -40,7 +40,7 @@ const NavBar = () => {
     <div className="flex justify-between items-center w-full h-20 text-white px-4
     bg-black fixed">
         <div>
-            <h1 className="text-5xl ml-2">Sigma Pi</h1>
+            <h1 className="text-4xl ml-2 text-gray-500">Sigma Pi MSU</h1>
         </div>
         {/*This iterates through our links array and creates elements for them*/ }
         <ul className ="hidden md:flex">
