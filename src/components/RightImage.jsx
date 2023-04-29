@@ -6,7 +6,7 @@ function RightImage({image, text, title, name}) {
         <div className="max-w-screen-lg p-4 mx-auto flex flex-row justify-center w-full h-full">
         <div className='flex flex-col mr-5'>
             <div className="pb-8">
-                <p className='text-4xl font-bold inline border-b-4 border-gray-500'>{title}</p>
+                <p className='md:text-4xl font-bold inline border-b-4 border-gray-500'>{title}</p>
             </div>
             <p>{text}</p>
         </div>
