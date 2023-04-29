@@ -6,7 +6,7 @@ const About = () => {
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
             <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
             <p className='text-xl mt-4'>
-               Welcome to the Zeta Mu Chapter of the Sigma Pi Fraternity at Michigan State University. <br></br>
+               Welcome to the Zeta Mu Chapter of the Sigma Pi Fraternity at Michigan State University.
                We are one of Michigan State's largest fraternities. 
             </p>
         </div>
