@@ -22,11 +22,18 @@ const NavBar = () => {
         {id:2,
         link: 'about'},
         {id:3,
-        link: 'portfolio'},
+        link: 'House'},
         {id:4,
-        link: 'experience'},
+        link: 'Brotherhood'},
         {id:5,
-        link: 'contact'}
+        link: 'Philanthropy'},
+        {id:6,
+            link: 'Scocial'},
+        {id:7,
+                link: 'Sweet Heart'},
+        {id:8,
+                    link: 'Rush'},
+
     ]
     
     return (
