@@ -53,7 +53,7 @@ const NavBar = () => {
         </ul>
 
         {/*md-hidden means hide if the screen size is medium*/}
-        <div onClick={()=> setNav(!nav)} className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden">
+        <div onClick={()=> setNav(!nav)} className="cursor-pointer pr-4 z-40 text-gray-500 md:hidden">
             {/*What this is doing is using the nav state. If it is clicked the nav state is cha
             to the opposite of what it was. It switches from the x icon to the bars icon for mobile*/}
             {nav ? <FaTimes size={30}/> : <FaBars size={30} />}
@@ -61,9 +61,9 @@ const NavBar = () => {
 
        {/*This means show only is nav is true*/}
         {nav && (
-             <ul className = "flex flex-col justify-center items-center absolute top-0 left-0 w-full h-3/4 bg-gradient-to-b from-black to-gray-800 text-gray-500 border-b-4 border-gray-800">
+             <ul className = "flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-black text-gray-500 border-b-4 border-gray-800  z-30">
              {links.map(({id, link})=>(
-                <li key={id} className="px-4 cursor-pointer capitalize py-3 text-2xl"><Link to={link} smooth duration ={500}>{link}</Link></li>
+                <li key={id} className="px-4 cursor-pointer capitalize py-3 text-2xl z-11"><Link to={link} smooth duration ={500}>{link}</Link></li>
  
              ))}
          </ul>
