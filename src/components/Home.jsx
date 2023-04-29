@@ -8,7 +8,7 @@ const Home = () => {
     <div name="home" className="h-screen w-full bg-gradient-to-b via-black from-black to-gray-800 text-white">
          <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center
              h-full px-4 md:flex-row">
-                <h2 className="text-2xl sm:text-7xl font-bold text-white">
+                <h2 className="text-2xl md:text-7xl font-bold text-white">
                     Sigma Pi at Michiagn State University
                 </h2>
              <div>
