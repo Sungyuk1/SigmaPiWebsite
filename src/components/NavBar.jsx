@@ -28,7 +28,7 @@ const NavBar = () => {
         {id:5,
         link: 'Philanthropy'},
         {id:6,
-            link: 'Scocial'},
+            link: 'Social'},
         {id:7,
                 link: 'Sweet Heart'},
         {id:8,
