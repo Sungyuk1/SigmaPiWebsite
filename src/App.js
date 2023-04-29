@@ -12,6 +12,8 @@ import dogPic from "./assets/philantro.jpg"
 import rush from "./assets/rush.jpg"
 import Rachel1 from "./assets/Rachel1.jpg"
 import Volleyball2 from "./assets/Volleyball2.jpg"
+import trophy from "./assets/trophy.jpg"
+
 function App() {
   return (
     <div>
