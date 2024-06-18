@@ -25,8 +25,8 @@ function App() {
       <RightImage title={"Brotherhood"} text={"Sigma Pi at MSU is one of MSU's largest fraternities. We currently have 120 active brothers on campus. We value our brotherhood very much and hold brotherhood events throughout the school year."} name={"Brotherhood"} image={Toronto}/>
       <LeftImage title={"Philanthropy"} text={"We hold multiple Philanthropy events throughout the school year to help better our community. \n Some of our most popular Philanthropy events include Fight Night, our annual Volleyball Tournament, and our Pinball Petes fundraiser"} name={"Philanthropy"} image={Volleyball2}/>
       <RightImage title={"Social"} text={"We hold multiple socials every week for our brotherhood. \n We hold tailgates during football season as well. \n Our hardworking social chairs make sure that there is never a dull moment during the school year. "} name={"Social"} image={Social1}/>
-      <LeftImage title={"Sweet Heart"} text={"This is rachel. Ask arron if rachel want different picture on wbesite. This is randomw pictre off her instagram"} name={"Sweet Heart"} image={Rachel1}/>
-      <RightImage title={"Rush"} text={"If you are interested in rushing the house please reach out to our rush chair Dan Hughes. \n Also please feel free to DM us on instagra as well."} name={"Rush"} image={rush}/>
+      {/*<LeftImage title={"Sweet Heart"} text={"This is rachel. Ask arron if rachel want different picture on wbesite. This is randomw pictre off her instagram"} name={"Sweet Heart"} image={Rachel1}/>*/}
+      <LeftImage title={"Rush"} text={"If you are interested in rushing the house please reach out to our rush chair Dan Hughes. \n Also please feel free to DM us on instagra as well."} name={"Rush"} image={rush}/>
       <SocialLinks name={"Links"}/>
     </div>
   );

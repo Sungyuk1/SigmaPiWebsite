@@ -5,17 +5,10 @@ import {useState} from "react";
 import {Link} from "react-scroll"
 
 const NavBar = () => {
-    //fixed will fix the navigation bar on top so it will not move even if you scroll
-    //text-white makes the text in the h1 white
-    //bg-black makes the background black
-    //px - padding on x axis
-    //ml- margin left of blank
-    //ul will have all of our link items. ul stands for unordered list
-    //hover:scale-105 duration-200   -hover when above the list item, and duration is how long it should take to scale to 105
-    
     //default state is false
     const [nav, setNav] = useState(false)
 
+    //        {id:7, link: 'Sweet Heart'}, - removed link for sweetheart. Update with new sweetheart
     const links=[
         {id:1,
         link: 'home'},
@@ -29,8 +22,6 @@ const NavBar = () => {
         link: 'Philanthropy'},
         {id:6,
             link: 'Social'},
-        {id:7,
-                link: 'Sweet Heart'},
         {id:8,
                     link: 'Rush'},
         {id: 9,
