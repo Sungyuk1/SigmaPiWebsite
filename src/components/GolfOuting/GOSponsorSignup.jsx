@@ -22,7 +22,7 @@ const SponsorSignup = () => {
           </div>
         </div>
       </div>
-      <hr class="h-px my-8 bg-black border-0 w-3/4 mb-16"/>
+      <hr class="h-px bg-black border-0 w-3/4 mb-10 mt-2"/>
       <div className="w-full flex justify-center">
         <iframe 
           src="https://docs.google.com/forms/d/e/1FAIpQLSfwn1-NqZ49YBLU58FCmVTUGJ3in4gcZNpTl2o5xWMo_0jgmg/viewform?embedded=true" 
