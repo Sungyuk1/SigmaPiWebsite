@@ -10,7 +10,7 @@ const PastChampions = () => {
           <img src={championsImage} alt="Last Year's Champions" className="w-3/4 h-auto rounded-lg mb-6" />
           <div className="text-center">
             <h2 className="text-2xl font-semibold mb-2">2023 Champions</h2>
-            <p className="text-lg">Ric Balesky, Tommy Balesky, Prince William Barrott III, Mark Barrott</p>
+            <p className="text-lg">Ric Balesky, Tommy Balesky, Will Barrott, Mark Barrott</p>
           </div>
         </div>
       </div>

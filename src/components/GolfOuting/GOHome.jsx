@@ -68,7 +68,12 @@ const Home = () => {
               <p>as most of our proceeds come from this.</p>
               <p>More information can be found on the Sponsors page</p>
             </InfoTile>
+
           </div>
+          <div className="flex flex-row justify-center mt-8 text-center items-center">
+              <a href='/golf-outing/register' className="bg-black h-12 w-24 text-white rounded-md flex justify-center items-center">Register</a>
+          </div>
+
         </div>
       </section>
       <section className="py-16 bg-gray-100">
