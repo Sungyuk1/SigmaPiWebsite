@@ -2,6 +2,7 @@ Pretty simple website for the house page
 
 # How to run
 run yarn install to install the dependencies
+run npm install react-router-dom
 run npm start to run the website locally
 
 # Components
