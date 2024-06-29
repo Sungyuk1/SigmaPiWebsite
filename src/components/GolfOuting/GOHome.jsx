@@ -35,7 +35,7 @@ const Home = () => {
           </p>
         </div>
       </section>
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-white flex flex-col items-center">
         <div className="container px-12">
           <h2 className="text-3xl font-bold mb-4 text-center">Event Details</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -64,7 +64,7 @@ const Home = () => {
               <p>As well as the closest to the pin and longest drive winners.</p>
             </InfoTile>
             <InfoTile title="Sponsors">
-              <p>Please considering sponsoring a hole for $150,</p>
+              <p>Please consider sponsoring a hole for $150,</p>
               <p>as most of our proceeds come from this.</p>
               <p>More information can be found on the Sponsors page</p>
             </InfoTile>
