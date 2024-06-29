@@ -13,6 +13,7 @@ const GONavBar = () => {
         { id: 5, name: 'Register', path: '/golf-outing/register' },
         //{ id: 6, name: 'Login', path: '/golf-outing/login' }, // Add login item
         //{ id: 7, name: 'Create Account', path: '/golf-outing/createaccount' } // Add create account item
+        {id: 8, name: 'Past Champs', path: '/golf-outing/past-champs'}
       ];
 
   return (
