@@ -8,6 +8,7 @@ import SponsorSignup from './GOSponsorSignup';
 import GORegister from './GORegister';
 import footerImage from '../../assets/testbackground.png'
 import GOPastChamps from '../GolfOuting/GOPastChamps'
+import GOFooter from '../GolfOuting/GOFooter'
 
 
 const GOLayout = () => {
@@ -21,9 +22,7 @@ const GOLayout = () => {
           <Route path="/register" element={<GORegister />} />
           <Route path="/past-champs" element={<GOPastChamps />} />
       </Routes>
-      <footer className="w-full bg-purple-900 h-48">
-        <img src={footerImage} alt="Header Logo" className="w-1/3 m-auto py-12" /> {/* Set a fixed size */}
-      </footer>
+      <GOFooter/>
     </div>
   );
 };

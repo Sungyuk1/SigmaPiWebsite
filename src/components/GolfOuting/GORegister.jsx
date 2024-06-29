@@ -39,11 +39,11 @@ const Register = () => {
             </div>
             </div>
             <hr class="h-px bg-black border-0 w-3/4 mb-10 mt-2"/>
-            <div className="w-full flex justify-center"> {/* Center the iframe */}
+            <div className="w-full flex justify-center">
                 <iframe 
                 src="https://docs.google.com/forms/d/e/1FAIpQLScTQwSPpyLuniIWJPgOIJVQ-NFxPsxXakHivUDLC3savltsVw/viewform?embedded=true" 
                 height="1200" 
-                className="w-full max-w-3xl" // Responsive width
+                className="w-full max-w-3xl"
                 >
                 Loading…
                 </iframe>

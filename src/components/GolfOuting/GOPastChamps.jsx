@@ -1,5 +1,5 @@
 import React from 'react';
-import championsImage from '../../assets/2023GolfOutingChamps.png'; // Adjust the path if necessary
+import championsImage from '../../assets/2023GolfOutingChamps.png';
 
 const PastChampions = () => {
   return (

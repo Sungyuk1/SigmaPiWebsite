@@ -4,8 +4,8 @@ import InfoTile from './GOInfoTile';
 // sponsor tile object...could be moved into own component
 const SponsorTile = ({ name, logo }) => {
     return (
-      <div className="bg-white p-4 rounded shadow-md flex items-center justify-center h-48"> {/* Increased height */}
-        <img src={logo} alt={name} className="h-full w-full object-contain" /> {/* Adjusted image size */}
+      <div className="bg-white p-4 rounded shadow-md flex items-center justify-center h-48">
+        <img src={logo} alt={name} className="h-full w-full object-contain" />
       </div>
     );
   };
