@@ -46,7 +46,7 @@ const Home = () => {
               <p>~ 3:00 PM - Awards Ceremony</p>
             </InfoTile>
             <InfoTile title="Location">
-              <p>Meridian Sun Golf Course</p>
+              <p><u><a href="https://www.meridiansungc.com/">Meridian Sun Golf Course</a></u></p>
               <p>1018 Haslett Rd</p>
               <p>Haslett, MI 48840</p>
             </InfoTile>
