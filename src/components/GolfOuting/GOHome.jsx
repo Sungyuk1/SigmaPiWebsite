@@ -61,7 +61,7 @@ const Home = () => {
             </InfoTile>
             <InfoTile title="Prizes">
               <p>Prizes will be awarded for the winning foursome,</p>
-              <p>As well as the closest to the pin and longest drive winners.</p>
+              <p>as well as the closest to the pin and longest drive winners.</p>
             </InfoTile>
             <InfoTile title="Sponsors">
               <p>Please consider sponsoring a hole for $150,</p>
