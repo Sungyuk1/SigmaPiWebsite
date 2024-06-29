@@ -85,15 +85,16 @@ const Home = () => {
         </div>
       </section>
       <section className="py-16 bg-white my-24">
-        <div className="container mx-auto px-12">
-          <h2 className="text-3xl font-bold mb-4 text-center">Past Sponsors</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="container mx-auto px-12">
+        <h2 className="text-3xl font-bold mb-4 text-center">Past Sponsors</h2>
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {sponsors.map((sponsor, index) => (
-              <SponsorTile key={index} name={sponsor.name} logo={sponsor.logo} />
-            ))}
-          </div>
+            <SponsorTile key={index} name={sponsor.name} logo={sponsor.logo} />
+          ))}
         </div>
-      </section>
+      </div>
+    </section>
+
     </div>
   );
 };
