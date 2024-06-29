@@ -1,9 +1,11 @@
 // GolfOutingHeader.js
-import React, {useContext} from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom'; // Adjust import based on your routing needs
+import { FaBars, FaTimes } from 'react-icons/fa';
 import GONavTile from './GONavTile'; // Adjust the import path
 
 const GONavBar = () => {
+    const [navOpen, setNavOpen] = useState(false);
 
     const navItems = [
         { id: 1, name: 'Home', path: '/golf-outing' },
@@ -16,17 +18,34 @@ const GONavBar = () => {
         {id: 8, name: 'Past Champs', path: '/golf-outing/past-champs'}
       ];
 
-  return (
-    <header>
-        <nav className=" p-4 w-full top-3 z-50 right-3 bg-gray-100">
-            <ul className="flex justify-end space-x-4">
-                {navItems.map(item => (
+      const handleToggleNav = () => {
+        setNavOpen(!navOpen);
+      };
+      return (
+        <nav className="bg-gray-100 shadow-md w-full">
+          <div className="container mx-auto p-4 flex justify-end items-center">
+            <div className="md:hidden">
+              <button onClick={handleToggleNav} className="text-gray-700 focus:outline-none">
+                {navOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+              </button>
+            </div>
+            <ul className="hidden md:flex justify-end space-x-4 w-full">
+              {navItems.map(item => (
                 <GONavTile key={item.id} path={item.path} name={item.name} />
-                ))}
+              ))}
             </ul>
+          </div>
+          {navOpen && (
+            <ul className="flex flex-col md:hidden bg-gray-100 w-full border-t border-gray-300">
+              {navItems.map(item => (
+                <li key={item.id} className="py-2 px-4 border-b border-gray-300">
+                  <Link to={item.path} onClick={() => setNavOpen(false)}>{item.name}</Link>
+                </li>
+              ))}
+            </ul>
+          )}
         </nav>
-    </header>
-  );
-};
-
+      );
+    };
+    
 export default GONavBar;
