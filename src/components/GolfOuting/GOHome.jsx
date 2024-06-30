@@ -31,7 +31,7 @@ const Home = () => {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl font-bold mb-4">Welcome to the MSU Sigma Pi 2024 Golf Outing Sign-up</h1>
           <p className="text-lg px-12">
-            We are excited to have you join us for an incredible day of golf, fun, and camaraderie. The event will take place this year on Sunday, August 29, which is the day after the OSU game. Please scroll down to find more information about the event.
+            We are excited to have you join us for an incredible day of golf, fun, and camaraderie. The event will take place this year on Sunday, September 29, which is the day after the OSU game. Please scroll down to find more information about the event.
           </p>
         </div>
       </section>
@@ -42,8 +42,8 @@ const Home = () => {
             <InfoTile title="Schedule">
               <p>8:00 AM - Registration</p>
               <p>9:00 AM - Tee-off</p>
-              <p>~ 2:00 PM - Food at chapter house</p>
-              <p>~ 3:00 PM - Awards Ceremony</p>
+              <p>~ 2:00 PM - Food at Chapter House</p>
+              <p>~ 3:00 PM - Awards</p>
             </InfoTile>
             <InfoTile title="Location">
               <p><u><a href="https://www.meridiansungc.com/">Meridian Sun Golf Course</a></u></p>
@@ -60,8 +60,9 @@ const Home = () => {
               <p>Email: chadbeckeman@gmail.com</p>
             </InfoTile>
             <InfoTile title="Prizes">
-              <p>Prizes will be awarded for the winning foursome,</p>
-              <p>as well as the closest to the pin and longest drive winners.</p>
+              <p>Winning Foursome</p>
+              <p>2 Closest to the Pin Winners</p>
+              <p>2 Longest Drive Winners</p>
             </InfoTile>
             <InfoTile title="Sponsors">
               <p>Please consider sponsoring a hole for $150,</p>
