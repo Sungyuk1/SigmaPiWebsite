@@ -14,7 +14,7 @@ const Register = () => {
                     </p>
                     <ul className="test-gray-700 mb-4">
                         <li>
-                            <b>Date: </b><span>Sunday, October 29</span>
+                            <b>Date: </b><span>Sunday, September 29</span>
                         </li>
                         <li>
                             <b>Start Time: </b><span>9:00 AM</span>

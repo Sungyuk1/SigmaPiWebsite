@@ -40,7 +40,7 @@ const Home = () => {
           <h2 className="text-3xl font-bold mb-4 text-center">Event Details</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <InfoTile title="Schedule">
-              <p>8:00 AM - Registration</p>
+              <p>8:00 AM - Check-in and Range</p>
               <p>9:00 AM - Tee-off</p>
               <p>~ 2:00 PM - Food at Chapter House</p>
               <p>~ 3:00 PM - Awards</p>
