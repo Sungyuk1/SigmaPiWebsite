@@ -11,18 +11,31 @@ const SponsorTile = ({ name, logo }) => {
   };
 
 // collects all past sponsors from sponsor folder
-const importAll = (r) => {
-  let images = {};
-  r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
-  return images;
+const importPastSponsors = (r) => {
+  let pastSponsorImages = {};
+  r.keys().map((item, index) => { pastSponsorImages[item.replace('./', '')] = r(item); });
+  return pastSponsorImages;
 };
 
-const images = importAll(require.context('../../assets/pastsponsors', false, /\.(png|jpe?g|svg)$/));
+const importCurrentSponsors = (r) => {
+  let currentSponsorImages = {};
+  r.keys().map((item, index) => { currentSponsorImages[item.replace('./', '')] = r(item); });
+  return currentSponsorImages;
+};
+const pastSponsorImages = importPastSponsors(require.context('../../assets/pastsponsors', false, /\.(png|jpe?g|svg)$/));
+
+const currentSponsorImages = importPastSponsors(require.context('../../assets/currentsponsors', false, /\.(png|jpe?g|svg)$/));
+
 
 const Home = () => {
-  const sponsors = Object.keys(images).map(key => ({
+  const pastSponsors = Object.keys(pastSponsorImages).map(key => ({
     name: key.split('.')[0],
-    logo: images[key]
+    logo: pastSponsorImages[key]
+  }));
+
+  const currentSponsors = Object.keys(currentSponsorImages).map(key => ({
+    name: key.split('.')[0],
+    logo: currentSponsorImages[key]
   }));
 
   return (
@@ -81,7 +94,9 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-4 text-center">This Year's Sponsors</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-
+            {currentSponsors.map((sponsor, index) => (
+              <SponsorTile key={index} name={sponsor.name} logo={sponsor.logo} />
+            ))}
           </div>
         </div>
       </section>
@@ -89,7 +104,7 @@ const Home = () => {
       <div className="container mx-auto px-12">
         <h2 className="text-3xl font-bold mb-4 text-center">Past Sponsors</h2>
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          {sponsors.map((sponsor, index) => (
+          {pastSponsors.map((sponsor, index) => (
             <SponsorTile key={index} name={sponsor.name} logo={sponsor.logo} />
           ))}
         </div>
