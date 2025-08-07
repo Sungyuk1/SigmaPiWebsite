@@ -42,9 +42,9 @@ const Home = () => {
     <div className="bg-gray-100 min-h-screen">
       <section className="bg-gray-100 py-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold mb-4">Welcome to the MSU Sigma Pi 2024 Golf Outing Sign-up</h1>
+          <h1 className="text-4xl font-bold mb-4">Welcome to the MSU Sigma Pi 2025 Golf Outing Sign-up</h1>
           <p className="text-lg px-12">
-            We are excited to have you join us for an incredible day of golf, fun, and camaraderie. The event will take place this year on Sunday, September 29, which is the day after the OSU game. Please scroll down to find more information about the event.
+            We are excited to have you join us for an incredible day of golf, fun, and camaraderie. The event will take place this year on <b>Sunday, September 21.</b> Please scroll down to find more information about the event.
           </p>
         </div>
       </section>
@@ -70,7 +70,7 @@ const Home = () => {
               <p>Food and beverages at the chapter house following the end of play</p>
             </InfoTile>
             <InfoTile title="Contact">
-              <p>Email: chadbeckeman@gmail.com</p>
+              <p>Email: achopkins24@gmail.com</p>
             </InfoTile>
             <InfoTile title="Prizes">
               <p>Winning Foursome</p>

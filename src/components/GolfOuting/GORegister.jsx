@@ -6,15 +6,15 @@ const Register = () => {
           <div className="w-full max-w-6xl p-6">
             <div className="flex flex-col md:flex-row justify-between gap-5">
               <div className=" mb-6 md:mb-0">
-                <h2 className="text-3xl font-bold mb-4">2024 Registration</h2>
+                <h2 className="text-3xl font-bold mb-4">2025 Registration</h2>
                 <div className="flex flex-col">
                     <p className="text-gray-700 mb-4">
-                    Thank you for your interest in our 4th annual golf outing! Please fill out the form below, and we will assign you your team.
+                    Thank you for your interest in our 5th annual golf outing! Please fill out the form below, and we will assign you your team.
                     You may select up to three other players you wish to play with, or we will match you with a group for you.
                     </p>
                     <ul className="test-gray-700 mb-4">
                         <li>
-                            <b>Date: </b><span>Sunday, September 29</span>
+                            <b>Date: </b><span>Sunday, September 21</span>
                         </li>
                         <li>
                             <b>Start Time: </b><span>9:00 AM</span>
