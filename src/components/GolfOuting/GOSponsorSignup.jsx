@@ -11,7 +11,7 @@ const SponsorSignup = () => {
             <p className="text-gray-700 mb-8">
               Support our event by becoming a sponsor. Your contributions help make our event a success! 
               Sponsors will get their logo featured on a sign for one hole, and on this website! 
-              If you wish to sponsor, please fill out the form below, we will reach out to you to get the logo. You can reach out to chadbeckeman@gmail.com with any questions.
+              If you wish to sponsor, please fill out the form below, we will reach out to you to get the logo. You can reach out to achopkins24@gmail.com with any questions.
             </p>
             <p className="text-gray-700 mb-4">
               Featured to the right/below is the sign you will get your logo/name on.
