@@ -94,9 +94,9 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-4 text-center">This Year's Sponsors</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-            {currentSponsors.map((sponsor, index) => (
+            {/*currentSponsors.map((sponsor, index) => (
               <SponsorTile key={index} name={sponsor.name} logo={sponsor.logo} />
-            ))}
+            ))}*/}
           </div>
         </div>
       </section>
