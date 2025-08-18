@@ -40,8 +40,7 @@ const Register = () => {
             </div>
             <hr class="h-px bg-black border-0 w-3/4 mb-10 mt-2"/>
             <div className="w-full flex justify-center">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfZaY4IEemRvcEK9qFUtBE9DdJUdin88iaQmMRyxvyGHUGRyA/viewform?embedded=true" width="640" height="1029" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-            </div>          
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfZaY4IEemRvcEK9qFUtBE9DdJUdin88iaQmMRyxvyGHUGRyA/viewform?embedded=true" width="640" height="1029" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>            </div>          
         </div>
       );
     };
